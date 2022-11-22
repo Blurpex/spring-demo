@@ -34,4 +34,15 @@ public class Student {
     public void setAge(Integer age)     { this.age = age; }
     public void setDob(LocalDate dob)   { this.dob = dob; }
 
+    // to string method
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", age=" + age +
+                ", dob=" + dob +
+                '}';
+    }
 }
